@@ -1,0 +1,452 @@
+@prefix ifc: <http://ifcowl.openbimstandards.org/IFC2X3_Final#>.
+@prefix fso: <https://w3id.org/fso#>.
+@prefix beo: <https://w3id.org/beo#>.
+@prefix bot: <https://w3id.org/bot#>.
+@prefix fog: <https://w3id.org/fog#>.
+@prefix omg: <https://w3id.org/omg#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix inst: <https://web-bim/resources/>.
+
+inst:b290d0fe-0f7f-57fc-a1d7-628bdb779778 a bot:Site.
+inst:4e22aae1-afc7-5a6f-a908-998267ebf4c3 a bot:Building.
+inst:303514c8-e111-5e8b-8d2f-eea80d28d500 a bot:Storey.
+inst:3c920d72-c495-5d1c-9dc7-b8f23bf6cbfd a bot:Storey.
+inst:1a977502-7363-5a09-a95a-6b3f1ab06db4 a bot:Storey.
+inst:41321bd5-f34b-5b8b-bcf5-3ad710266535 a bot:Storey.
+inst:3adf8e39-f9af-598c-a779-619cb5719f0c a bot:Space.
+inst:dae0a11c-0329-5f1c-97b3-036931657fa2 a bot:Space.
+inst:0ba40802-18a4-5c1c-a384-ff351352dc1d a bot:Space.
+inst:942fe045-5c36-5c4c-895c-5a8d83677b5a a bot:Space.
+inst:bd86d257-3a3d-54ae-92a6-62fd66c1e7f9 a bot:Space.
+inst:2f311cd8-291b-500d-8da2-f7d6c285cf76 a bot:Space.
+inst:fc2ebbbf-074b-59c1-be73-a0e55e24cf08 a bot:Space.
+inst:f4aa1caf-6573-531f-b7d3-77c87d597dff a bot:Space.
+inst:3579cfb7-4637-577d-95c4-19a50af4f2c0 a bot:Space.
+inst:f2f412cf-5313-54e7-a698-19c845248935 a bot:Space.
+inst:e748aece-48f2-5f58-8f1a-5bc6eb7e9a05 a bot:Space.
+inst:0bebada3-d8f8-5580-8573-d5a475c2ba7f a bot:Space.
+inst:3ec1d193-6613-50d7-b4f0-f4ab96165939 a bot:Space.
+inst:fb93e695-03ba-5832-b840-9da3235d1522 a bot:Space.
+inst:d53c1796-2145-511f-becb-eedea059c636 a bot:Space.
+inst:9a340df3-f789-576c-9f39-015f5b0e70a5 a bot:Space.
+inst:aac4114f-311f-5c08-82a3-b7695bafc4f6 a bot:Space.
+inst:4cfb2ef4-d481-5e34-a43e-50cc83bfa533 a bot:Space.
+inst:cffbcd3c-57f0-5dc6-a673-1f6187eb98dd a bot:Space.
+inst:03dd17f6-9ebb-5590-bed9-c1b939dbcda0 a bot:Space.
+inst:76f197cf-8f86-5ce6-ba33-caa4dbbcbf0b a bot:Element.
+inst:dc32b173-e939-5ce0-a0b9-b3d62af78d77 a bot:Element.
+inst:e101cead-2925-5c14-9353-61def5b6dfa6 a bot:Element.
+inst:a7964e52-359c-58ef-ac5f-ea560c7a0ee6 a bot:Element.
+inst:6da22e80-513f-5dad-91ff-4b1d200895f0 a bot:Element.
+inst:0f86c8d1-e506-591f-a149-a8e6446e9bbd a bot:Element.
+inst:10829bd4-a8fc-5321-b2f9-dfa307d8a16f a bot:Element.
+inst:9743a6cf-ab52-5776-99d9-5c47b80ce86d a bot:Element.
+inst:52102d74-bcd7-5cc3-9f60-cead55329990 a bot:Element.
+inst:7a7d77c2-8129-52db-b3d8-89b56baf9a5c a bot:Element.
+inst:96ccef3e-93ff-5dce-a68a-6dce5c4b30b2 a bot:Element.
+inst:7590d321-c1f7-5491-9098-36d3f511ec05 a bot:Element.
+inst:a00aa15b-15fb-5482-a859-efc745bf50e0 a bot:Element.
+inst:ebc16c44-4917-5c3f-80a2-fd315be77d9d a bot:Element.
+inst:51f9ef40-f9d8-53ea-9ae9-e07719e8a79a a bot:Element.
+inst:ae6c725e-f500-5399-866e-589e4516adfd a bot:Element.
+inst:106e7acf-f0d7-581e-b8ae-0d673336b2ac a bot:Element.
+inst:f81c2e25-81de-5332-9809-1a529ed15a6a a bot:Element.
+inst:08ca9df4-d90c-559e-8884-fab9e66bcd07 a bot:Element.
+inst:6c120149-2f99-55de-a7ab-fc427d941a96 a bot:Element.
+inst:e67c9f86-1c5c-51e5-9a1f-effef67f65f9 a bot:Element.
+inst:fe285dff-02c8-5adc-8e30-11daa17851e1 a bot:Element.
+inst:694059f2-d7f0-5040-b318-72541a9df9b5 a bot:Element.
+inst:ab10c52e-1f33-521d-bf95-4c2b9b132499 a bot:Element.
+inst:0df6836b-837f-5469-a575-84228ae0aa6c a bot:Element.
+inst:07f380cf-7d8c-5307-891d-018acb83db9d a bot:Element.
+inst:b77131e3-e3d2-5b8c-8b44-02242119a667 a bot:Element.
+inst:6016d0df-4dca-512b-8a1d-9884c54c3e48 a bot:Element.
+inst:61695bc8-3121-5bf6-9842-1d95d20b6105 a bot:Element.
+inst:4cc64ff4-346c-50ce-83f8-1f93f569c755 a bot:Element.
+inst:d7e6d866-0ccf-5ec4-af49-329e4612064f a bot:Element.
+inst:7eff228f-99de-526b-86bc-911e309fe154 a bot:Element.
+inst:780bc94b-4727-5935-9d8f-70290e44d6ba a bot:Element.
+inst:eb0fcf57-ac54-581a-bcbc-26bf44548aae a bot:Element.
+inst:e4ed608b-1518-5c04-aeba-54a5f1ea39b1 a bot:Element.
+inst:2035c626-b1f8-5012-b179-1c31b18e66ce a bot:Element.
+inst:17b2b118-c5c3-5f7c-aa70-c9b0acf5e04c a bot:Element.
+inst:8754e669-326b-5509-ae79-a7db32324b13 a bot:Element.
+inst:7f3ec5fe-d7b6-5bb1-ba0e-2721e8b80fa5 a bot:Element.
+inst:74467fc5-45a9-5350-a764-da896a720000 a bot:Element.
+inst:0826cf00-72b0-5d47-8a8b-2bafcab1dffe a bot:Element.
+inst:4075d9a6-5686-5a5f-9af3-b096c5148963 a bot:Element.
+inst:9a7dd011-cd9b-5c56-9321-1758f5f8c5cd a bot:Element.
+inst:37caaa05-391a-5f79-a5ec-f1ed2c2c8f69 a bot:Element.
+inst:2a18c8d0-1085-5b8b-b63c-9d75c7bf6edc a bot:Element.
+inst:aa08d71b-0495-537c-9981-395e8f7e7aca a bot:Element.
+inst:1c27bf34-01ae-562a-86f2-0cc09430e5d8 a bot:Element.
+inst:e34681b9-0ff8-5f86-bbe7-ca7b2e18c67c a bot:Element.
+inst:b81c8f9b-6df8-5d33-ae9a-8396224a299b a bot:Element.
+inst:97cdda8d-fb64-5d84-899e-9d062605a064 a bot:Element.
+inst:fa63784b-7a72-5769-8f34-3375be24658d a bot:Element.
+inst:de0b51ab-c736-5ec8-b524-10bcb014874b a bot:Element.
+inst:42ebe8c7-0904-508d-8ad2-3ee643e1598a a bot:Element.
+inst:dc2b69a7-1715-57e6-9daf-1e0269bd205c a bot:Element.
+inst:50b0624e-6669-5623-a8e7-e7ac22a3ad47 a bot:Element.
+inst:36ca7ed1-5a91-5a01-86be-8fbb209eea53 a bot:Element.
+inst:977a5710-81f5-5ed6-b467-330aa1f8469f a bot:Element.
+inst:ad39a94f-4890-5cce-88c1-24e63e9f59d5 a bot:Element.
+inst:cad002ad-11a9-57e5-b9fe-d21649b7a979 a bot:Element.
+inst:45ab347b-5116-52d2-8691-f99736d11a7c a bot:Element.
+inst:39a3db7d-2b33-5870-84ba-e91c4d406d57 a bot:Element.
+inst:36773840-9c77-5409-91b1-5df2b7098eb2 a bot:Element.
+inst:ad2b15ff-8807-5d3f-898d-62a9d17ac3b6 a bot:Element.
+inst:9534aeaa-d3ae-5b7e-b61b-1538e5bc377b a bot:Element.
+inst:6487b31b-a805-50dd-90ed-cbdd7fc60b5b a bot:Element.
+inst:cca166a5-d09f-524c-a57f-3fd8342a1ff0 a bot:Element.
+inst:63029182-8134-5f62-a638-2c201882b8c2 a bot:Element.
+inst:351ec2d0-aa40-51a1-b5ec-13f71694482f a bot:Element.
+inst:a81d205d-0a5a-59e8-8282-7cac2ea3efec a bot:Element.
+inst:dad9d50c-1e17-568d-8003-63ce15014a66 a bot:Element.
+inst:2d2fb83b-ce6d-5f94-8c64-1a0d7b33bd63 a bot:Element.
+inst:7adcade4-b9bf-5b0f-a42f-4d91634b6263 a bot:Element.
+inst:a1ec283a-9ea1-506f-82c6-5a2b1741f425 a bot:Element.
+inst:caf1a8b8-3090-55f9-9a47-6e10f638927d a bot:Element.
+inst:a89b4fd4-a2cd-595f-b494-8bde76ea7396 a bot:Element.
+inst:f6a8c49d-c21f-5cf2-b3cf-cd149b043d3a a bot:Element.
+inst:60fa4014-85bb-55e6-8e0b-91a97c0d1464 a bot:Element.
+inst:e61e9bcf-f4a2-59a3-8ddc-66f4153fc134 a bot:Element.
+inst:c1e4ca51-87b1-5875-8c6f-369acb86e690 a bot:Element.
+inst:815eaa8c-0e00-56d5-bbbb-dce9f9169ac0 a bot:Element.
+inst:9fe2c1f2-8b12-543e-a3a5-634f54c76c0a a bot:Element.
+inst:56c51ed5-1672-5c35-a9e7-60cc1b8a7e1e a bot:Element.
+inst:e45a3283-7d50-5051-8377-c73c5e9e20b9 a bot:Element.
+inst:c4da781c-fd6a-5553-b248-1a3a64691f18 a bot:Element.
+inst:f3677117-8dc4-507b-9f84-cdfc1e3cd8b1 a bot:Element.
+inst:c8076f0a-a4ec-5605-b6d1-0d2cbce5ed9b a bot:Element.
+inst:d8ed3a7c-42ef-5028-a2a2-3fa6e75f8088 a bot:Element.
+inst:cd1225d3-e2a5-5435-8f8b-faab2c6721a6 a bot:Element.
+inst:8a405470-a9fb-5b12-9fae-7acd8b97f6a8 a bot:Element.
+inst:fb587ba7-d638-5cc0-ab31-c8abdd11891d a bot:Element.
+inst:63769d51-6cdc-56c4-bd42-dbcc34dabc9c a bot:Element.
+inst:37061298-eb74-588b-a7c1-f35c38d7286d a bot:Element.
+inst:50ee55e9-381e-5e7e-97d2-9ac51594c1ef a bot:Element.
+inst:13317c0f-7aa1-51d6-ab8e-b522878e7196 a bot:Element.
+inst:79aae483-110d-5a83-823e-906602d24c78 a bot:Element.
+inst:8a21463f-e9ab-5e7f-959b-04ee0058abbe a bot:Element.
+inst:6b8cbc43-b11b-5901-bc45-7785e08cbf39 a bot:Element.
+inst:466c45ca-9c34-56d8-93a2-b135f1ea7ce0 a bot:Element.
+inst:1e2c641c-d8dd-5856-b96b-12d49b4a3bae a bot:Element.
+inst:52e96f05-3eec-55f8-8ca8-36521ea91e96 a bot:Element.
+inst:3da4629a-11c1-5724-b19e-59026edabdb8 a bot:Element.
+inst:2f29626b-af0f-5a34-b1f6-63bc8ffb2e34 a bot:Element.
+inst:c99c6c81-fdb6-58c9-87c9-99472beea5fc a bot:Element.
+inst:d7896b28-5107-598c-b890-547500db8434 a bot:Element.
+inst:11cb0daf-9fd6-5f25-8e64-cc6947fb093a a bot:Element.
+inst:2cd08701-3026-5d38-b238-d2a1f6b2036c a bot:Element.
+inst:aaad5d31-0be4-53a8-abd6-65e9d7afc724 a bot:Element.
+inst:168d2861-2a8a-5176-9e01-250feaf1a19e a bot:Element.
+inst:ed4b6972-4203-5a07-9282-679aa64fd217 a bot:Element.
+inst:380b8e97-ece9-5823-9fe8-189dfe91729c a bot:Element.
+inst:9bc263a5-8958-57f2-aa1f-e207c3cf698a a bot:Element.
+inst:f329849c-4dca-5f5c-9769-849a71f9ac58 a bot:Element.
+inst:2952a07f-1d25-5afe-bdb0-bd972bbc46e3 a bot:Element.
+inst:2e0328e4-3d3e-565f-b679-3f6037c2b36f a bot:Element.
+inst:b6b60b6a-a438-5f00-a357-928703eb60fe a bot:Element.
+inst:0eb0758b-a8f8-59a6-9ece-e7fa960f2434 a bot:Element.
+inst:c8f72027-3c94-5a60-a338-dcb0c4f5a83b a bot:Element.
+inst:4015e82b-f53f-5d49-92a5-5c3b374f6aa0 a bot:Element.
+inst:969fedf3-70c3-5f18-9aed-bc910347da51 a bot:Element.
+inst:966d98b7-3b78-551f-9635-015b40b462bc a bot:Element.
+inst:a8b293ee-6d1c-5b6f-ae1a-d26d899dbb81 a bot:Element.
+inst:d4f7d7b7-6b17-57ee-80e8-ccde8d2b0b13 a bot:Element.
+inst:d5c689bd-cf24-5d1f-8832-1da384f7c3fe a bot:Element.
+inst:85ff3540-a848-53f1-b4cb-b55e53ef8ca9 a bot:Element.
+inst:fe2e9423-d9c0-57d4-bcbd-6e3f5a979e51 a bot:Element.
+inst:6d319c28-5c99-5d71-a4eb-2d52f9fc436a a bot:Element.
+inst:39cf03ec-f498-5845-ad19-8abca95e62d5 a bot:Element.
+inst:13b20ff5-d4a4-50c9-8168-b8a95e6c9782 a bot:Element.
+inst:e7b97ef9-57bb-577d-a175-85f7bc2b2dd6 a bot:Element.
+inst:4d5954b8-7036-5428-9158-338e32ccf24d a bot:Element.
+inst:bb20ec8a-298d-510c-9898-182bd2db2d67 a bot:Element.
+inst:6bb8c58e-8b94-5f1b-b9ee-a8d9d103f029 a bot:Element.
+inst:1f453f78-25d3-58b0-8396-df88ffa82def a bot:Element.
+inst:b38b9a20-9b03-5b49-826e-d078b3e45a65 a bot:Element.
+inst:808d0891-bf33-5aa0-946d-cc938401c843 a bot:Element.
+inst:e50e8f5e-f5d7-5d69-bafa-ace06845819b a bot:Element.
+inst:b9ef9f06-4022-50b3-9742-eacbb771bb90 a bot:Element.
+inst:fc37474a-aac3-51f6-9bab-5a124c505d3a a bot:Element.
+inst:ecaacc08-6720-58d3-885e-f5416d0dbaf6 a bot:Element.
+inst:1f34f27c-430d-5849-ad9d-01e6b93c9531 a bot:Element.
+inst:1b02a765-def0-5fe8-a265-aa67a0584f5d a bot:Element.
+inst:2f878530-6a4c-5603-918a-9f385608e256 a bot:Element.
+inst:e026db6b-3b15-51a5-ba36-72523ee2522e a bot:Element.
+inst:a8d4ef61-24b6-5448-ab57-68ae6d08acc2 a bot:Element.
+inst:675d4afb-a8d4-5044-ac5c-ff926caaf3d4 a bot:Element.
+inst:7e91abf8-0856-5453-b3ca-c13c77c57274 a bot:Element.
+inst:e6fefe83-39c5-5e97-8970-799e30c77ca6 a bot:Element.
+inst:87083e19-dba3-5e95-bda3-c44d9f828218 a bot:Element.
+inst:45157539-f855-5c76-ac2c-849d1abf63f6 a bot:Element.
+inst:2f6438aa-025c-5a92-b2a4-67dbaa602287 a bot:Element.
+inst:225ff0b8-a8ad-5012-912c-0ebddf0de19f a bot:Element.
+inst:62d9beda-ef4a-5d37-a4d1-6e735779fce6 a bot:Element.
+inst:2c1b6551-0dd2-5037-8955-266bf497897b a bot:Element.
+inst:f796d527-5c2e-5434-852a-1279065f81b8 a bot:Element.
+inst:e7920e47-292e-56a8-b675-15bee352ddcb a bot:Element.
+inst:95c6e063-fd16-554f-a51b-89c911163a7a a bot:Element.
+inst:d5a18078-0237-5ffa-bb7f-7959bd18965e a bot:Element.
+inst:a0f592d2-3d48-5f12-a7df-f6b43f9602af a bot:Element.
+inst:da63e2b8-03a2-59d5-b686-26624e58b4b6 a bot:Element.
+inst:c78b4bf2-9e68-5509-bfe5-920325af3a7f a bot:Element.
+inst:f5d8208e-1fae-5dfd-9482-a0668e4d6263 a bot:Element.
+inst:2da16406-682e-5095-9337-097a048725fe a bot:Element.
+inst:02f94cbf-63f5-59b2-b4ef-154a8e1ae168 a bot:Element.
+inst:2f3a9459-f19d-5467-8749-1c672f76fe8f a bot:Element.
+inst:6c928d96-6218-516a-811e-437a06d51e01 a bot:Element.
+inst:f8515eb9-ba29-51b3-9562-3cf0cb0613c7 a bot:Element.
+inst:f2b13177-fc99-5dc7-9a5c-125ba20108fc a bot:Element.
+inst:ce48a595-ba7d-565c-be46-62a046c85820 a bot:Element.
+inst:28570193-b646-5e63-8deb-ded33ed074a4 a bot:Element.
+inst:a93563cb-5175-54f3-9c2b-c5085e51a9ed a bot:Element.
+inst:adae3afa-20f3-5690-8863-118f3da6240b a bot:Element.
+inst:d56eb24e-2385-571e-a310-9bccbe89fe8c a bot:Element.
+inst:ba55ad3a-c43a-5a4e-9105-9fa5cd8b6dd5 a bot:Element.
+inst:641758b1-ce5d-5c71-9825-d13706a1f895 a bot:Element.
+inst:543c6543-d2ba-5dd3-8675-be7b0100b438 a bot:Element.
+inst:80902a9f-921f-59d3-8331-849df450deac a bot:Element.
+inst:269dcf63-5cf0-5d26-bb9e-53adca0943d4 a bot:Element.
+inst:2122afe4-e078-54de-80fb-d5db703bb4ba a bot:Element.
+inst:a8b6268a-f6d1-5eb3-b34a-7ebcc9f8699b a bot:Element.
+inst:d886038c-3c7a-59f6-99d0-740eda00fac6 a bot:Element.
+inst:798ebda2-acf4-5b23-8a17-96f8f28267f4 a bot:Element.
+inst:f28f0af2-6141-5db4-a86f-3b1b2fe390a5 a bot:Element.
+inst:ba6bf4d8-f9a8-5824-b342-5b25159b56d6 a bot:Element.
+inst:5640a707-9c83-5670-b1f5-4d3ab185e90c a bot:Element.
+inst:3484c4a0-ee0d-5703-820c-8ea41b0af6d2 a bot:Element.
+inst:11fac29f-77c1-5354-9e0e-35922c40b74b a bot:Element.
+inst:fa40b28b-0272-5c98-bc22-230b11b87b37 a bot:Element.
+inst:3f11090d-d684-5091-9bda-0f70432debfa a bot:Element.
+inst:d4c835a5-14e1-5cc4-aa2d-851b0320215e a bot:Element.
+inst:42362a1a-f073-571b-8a3f-2f3d7b6c3bcc a bot:Element.
+inst:d36a9cb3-161c-5f02-a0d3-054a4a4ce960 a bot:Element.
+inst:d5310a05-ce0f-5b8f-8f63-6a604b0e3d34 a bot:Element.
+inst:9bbaa6b6-574d-5232-85f3-8c9287a2ca43 a bot:Element.
+inst:4abbaa6c-7317-5cb2-a136-f0697101ac25 a bot:Element.
+inst:63f900eb-b37f-510b-b0c2-21dee7ada90a a bot:Element.
+inst:373f7272-281c-533b-84d1-f4817aca51c4 a bot:Element.
+inst:34d6b702-02d3-504e-bc84-867b1b85746e a bot:Element.
+inst:651f1713-0dd1-5464-af62-97824570469f a bot:Element.
+inst:a4331551-6c6c-5e55-aaa6-446a8a421c9c a bot:Element.
+inst:599e4d43-ba78-524d-8aa8-3c533a6f3847 a bot:Element.
+inst:f670261d-13b9-5701-835b-79ecd27ef793 a bot:Element.
+inst:157fcbbc-5d44-5813-9c3e-b20979616b08 a bot:Element.
+inst:f48d1a46-d1e2-599f-bd0d-45ef855cc49b a bot:Element.
+inst:266abd2e-d4be-5ba1-a0f9-64768177eb6a a bot:Element.
+inst:ecc718f0-2731-5b28-8bbe-3bcfee6e1393 a bot:Element.
+inst:c82f32db-c273-5f05-9f31-1725f2f5ff5b a bot:Element.
+inst:635c6170-3888-5e95-a2f2-5ed7ea4d0ec4 a bot:Element.
+inst:6633a3f6-8565-502f-a621-28611b2121b2 a bot:Element.
+inst:fb824efb-26d6-5aae-b4b0-3868650f478e a bot:Element.
+inst:777c49d9-7896-5e36-8025-2643b7c5945d a bot:Element.
+inst:3aaa4d8e-6338-5b1c-a7a3-f6c79bba5206 a bot:Element.
+inst:c1330238-c75b-5203-a76a-4308d6d2bce0 a bot:Element.
+inst:34b2e45b-d45b-5918-bbdb-de6455939f12 a bot:Element.
+inst:973ed00b-1748-5477-9cad-0b49164b7cae a bot:Element.
+inst:4172c22a-1b35-564e-b72f-565983ec7f37 a bot:Element.
+inst:0225345e-60d3-5545-ab07-5e908737aacc a bot:Element.
+inst:92e4f23d-27b0-51f3-a6f7-5f3c0a43a58d a bot:Element.
+inst:6298b160-6be4-541b-966a-ec1b16ea1b61 a bot:Element.
+inst:7eaada98-5313-5a2f-8ca6-11ed5bb83a8a a bot:Element.
+inst:bc204e3e-4d48-59dd-873e-49ffe3777a2b a bot:Element.
+inst:04c5b26e-7a9f-501c-a407-3272cf945939 a bot:Element.
+inst:98540f89-85a9-586e-bd42-16b02baa20e1 a bot:Element.
+inst:53f6fe1e-26f3-5550-86f2-7374c3bbefa0 a bot:Element.
+inst:287066b8-0119-5d8e-b9fd-dab479de5907 a bot:Element.
+inst:b19dc3ee-3240-56ae-a520-65ba6318babe a bot:Element.
+inst:dc64f698-c2bc-5a0a-aeea-549e2db7aa8a a bot:Element.
+inst:3ed265f8-3316-54e1-b35f-52ec123becf8 a bot:Element.
+inst:5198e8ae-4e72-50b4-a60c-847aa74786e4 a bot:Element.
+inst:deb18a12-8f2b-5362-a4f4-dfffc9aba4e0 a bot:Element.
+inst:211bffd0-41e0-5173-974e-fe655bcf5bdb a bot:Element.
+inst:d10caef0-7840-5fc1-93ae-fd9c9a826b16 a bot:Element.
+inst:ec3dcf56-ffcc-5851-a373-5d76bce831be a bot:Element.
+inst:5f3623df-d04e-5524-abea-c1642571c3c7 a bot:Element.
+inst:97d7209e-1a60-53a6-801d-dcc7db9546f9 a bot:Element.
+inst:66ebe8f6-e12f-5d78-88a5-fe8f5f95e053 a bot:Element.
+inst:f120b961-961b-506b-8299-15a51a61490c a bot:Element.
+inst:4f84118a-9b24-51a4-a066-3be1d7ac820e a bot:Element.
+inst:5337445c-5c09-5447-8200-9df870715463 a bot:Element.
+inst:88f46fd6-6b5e-5e42-8e97-7a7e76afa582 a bot:Element.
+inst:9b88655f-9d70-5e9a-8166-69e0f67990c5 a bot:Element.
+inst:54802613-8657-553c-89bd-694122b3565c a bot:Element.
+inst:27b67f3f-009d-56de-bc35-27e6b6511c8d a bot:Element.
+inst:61a725be-27ae-5542-bf02-317a2d2c840a a bot:Element.
+inst:1d1043fe-ae8e-537b-bbe8-1daa08c3ccfa a bot:Element.
+inst:de0e9adc-424d-5465-bbd5-5cbcc40bdf5d a bot:Element.
+inst:edba4877-fea1-5c8f-a2b9-0d6469cde375 a bot:Element.
+inst:4c48149c-0acb-5d65-a48d-4b648d01c620 a bot:Element.
+inst:166af8ec-0891-54a9-be82-e463504c9100 a bot:Element.
+inst:0d296ada-5f4f-514f-b864-7b13139004c2 a bot:Element.
+inst:0efd79c0-556b-5590-88aa-e3a104a3bb85 a bot:Element.
+inst:7167415f-c4b5-507f-ad5b-ddcdad794dc8 a bot:Element.
+inst:e51ee594-2a3d-50fd-9b64-3f63c733b7fe a bot:Element.
+inst:9af0f63c-af69-53aa-be87-451cf2cce5fa a bot:Element.
+inst:3a728eec-15fd-52ce-ba8d-bdcaed5379f3 a bot:Element.
+inst:997b654a-9f64-552e-a381-313bbc68ec2a a bot:Element.
+inst:3b606ad4-5a48-5f32-bcb5-69e1c18bd685 a bot:Element.
+inst:59cde1fb-91bd-5a9b-833d-329e39007933 a bot:Element.
+inst:cf7cc88f-0ca8-5c11-9ad2-7d9e5a1a07d1 a bot:Element.
+inst:fb136343-ca78-5dfe-a92c-2ec1b420c545 a bot:Element.
+inst:80b183dc-f91d-546a-8c66-cd9625a333af a bot:Element.
+inst:d7946675-f04b-5748-ba3d-60c441187c88 a bot:Element.
+inst:0f6a6982-3e17-5d79-af9c-58fbfc4d6668 a bot:Element.
+inst:11a2a597-855e-5cff-9ba4-cea84efeee8c a bot:Element.
+inst:154e946e-75bf-5c77-b5fb-c617d1fd5cbb a bot:Element.
+inst:e8011fb3-8a11-5e6c-831e-6d831b50e09e a bot:Element.
+inst:43b8e3fe-cfe0-5409-8556-3904e6e33397 a bot:Element.
+inst:77a65475-3bc5-566b-98f8-2675b65aa892 a bot:Element.
+inst:a06b5f9e-2f65-5d07-b4cb-744990da925c a bot:Element.
+inst:b0e0cf72-b162-5d54-b3a1-14bf3e897877 a bot:Element.
+inst:299d9f47-c247-53c7-856c-3a91216e3b1b a bot:Element.
+inst:82f397a4-4a6f-5c76-aeca-84216f648c9a a bot:Element.
+inst:97a198da-3b50-514e-b34a-c6b5d9e3c92c a bot:Element.
+inst:d28219ad-f888-54d4-a53f-a8ac3d6d5e8c a bot:Element.
+inst:3adf8e39-f9af-598c-a779-619cb5719f0c bot:adjacentElement inst:adae3afa-20f3-5690-8863-118f3da6240b, inst:6bb8c58e-8b94-5f1b-b9ee-a8d9d103f029, inst:e101cead-2925-5c14-9353-61def5b6dfa6, inst:ecaacc08-6720-58d3-885e-f5416d0dbaf6, inst:aa08d71b-0495-537c-9981-395e8f7e7aca, inst:5f3623df-d04e-5524-abea-c1642571c3c7, inst:a7964e52-359c-58ef-ac5f-ea560c7a0ee6.
+inst:dae0a11c-0329-5f1c-97b3-036931657fa2 bot:adjacentElement inst:adae3afa-20f3-5690-8863-118f3da6240b, inst:1f453f78-25d3-58b0-8396-df88ffa82def, inst:a7964e52-359c-58ef-ac5f-ea560c7a0ee6, inst:ec3dcf56-ffcc-5851-a373-5d76bce831be, inst:7a7d77c2-8129-52db-b3d8-89b56baf9a5c, inst:96ccef3e-93ff-5dce-a68a-6dce5c4b30b2, inst:5640a707-9c83-5670-b1f5-4d3ab185e90c.
+inst:0ba40802-18a4-5c1c-a384-ff351352dc1d bot:adjacentElement inst:a93563cb-5175-54f3-9c2b-c5085e51a9ed, inst:b38b9a20-9b03-5b49-826e-d078b3e45a65, inst:10829bd4-a8fc-5321-b2f9-dfa307d8a16f, inst:ba6bf4d8-f9a8-5824-b342-5b25159b56d6, inst:ba6bf4d8-f9a8-5824-b342-5b25159b56d6, inst:96ccef3e-93ff-5dce-a68a-6dce5c4b30b2, inst:7a7d77c2-8129-52db-b3d8-89b56baf9a5c, inst:ad39a94f-4890-5cce-88c1-24e63e9f59d5.
+inst:942fe045-5c36-5c4c-895c-5a8d83677b5a bot:adjacentElement inst:e7b97ef9-57bb-577d-a175-85f7bc2b2dd6, inst:543c6543-d2ba-5dd3-8675-be7b0100b438, inst:ab10c52e-1f33-521d-bf95-4c2b9b132499, inst:74467fc5-45a9-5350-a764-da896a720000, inst:f3677117-8dc4-507b-9f84-cdfc1e3cd8b1, inst:8754e669-326b-5509-ae79-a7db32324b13, inst:8754e669-326b-5509-ae79-a7db32324b13, inst:157fcbbc-5d44-5813-9c3e-b20979616b08, inst:8754e669-326b-5509-ae79-a7db32324b13, inst:d8ed3a7c-42ef-5028-a2a2-3fa6e75f8088, inst:157fcbbc-5d44-5813-9c3e-b20979616b08, inst:8754e669-326b-5509-ae79-a7db32324b13, inst:17b2b118-c5c3-5f7c-aa70-c9b0acf5e04c, inst:39a3db7d-2b33-5870-84ba-e91c4d406d57.
+inst:bd86d257-3a3d-54ae-92a6-62fd66c1e7f9 bot:adjacentElement inst:641758b1-ce5d-5c71-9825-d13706a1f895, inst:bb20ec8a-298d-510c-9898-182bd2db2d67, inst:8754e669-326b-5509-ae79-a7db32324b13, inst:d8ed3a7c-42ef-5028-a2a2-3fa6e75f8088, inst:157fcbbc-5d44-5813-9c3e-b20979616b08, inst:f670261d-13b9-5701-835b-79ecd27ef793, inst:157fcbbc-5d44-5813-9c3e-b20979616b08, inst:9bbaa6b6-574d-5232-85f3-8c9287a2ca43, inst:4075d9a6-5686-5a5f-9af3-b096c5148963.
+inst:2f311cd8-291b-500d-8da2-f7d6c285cf76 bot:adjacentElement inst:a8b6268a-f6d1-5eb3-b34a-7ebcc9f8699b, inst:6d319c28-5c99-5d71-a4eb-2d52f9fc436a, inst:e67c9f86-1c5c-51e5-9a1f-effef67f65f9, inst:e67c9f86-1c5c-51e5-9a1f-effef67f65f9, inst:b77131e3-e3d2-5b8c-8b44-02242119a667, inst:36ca7ed1-5a91-5a01-86be-8fbb209eea53, inst:50b0624e-6669-5623-a8e7-e7ac22a3ad47, inst:977a5710-81f5-5ed6-b467-330aa1f8469f, inst:dc2b69a7-1715-57e6-9daf-1e0269bd205c, inst:ab10c52e-1f33-521d-bf95-4c2b9b132499, inst:87083e19-dba3-5e95-bda3-c44d9f828218, inst:977a5710-81f5-5ed6-b467-330aa1f8469f, inst:50b0624e-6669-5623-a8e7-e7ac22a3ad47, inst:17b2b118-c5c3-5f7c-aa70-c9b0acf5e04c, inst:39a3db7d-2b33-5870-84ba-e91c4d406d57, inst:17b2b118-c5c3-5f7c-aa70-c9b0acf5e04c, inst:39a3db7d-2b33-5870-84ba-e91c4d406d57, inst:8754e669-326b-5509-ae79-a7db32324b13, inst:4075d9a6-5686-5a5f-9af3-b096c5148963, inst:4075d9a6-5686-5a5f-9af3-b096c5148963.
+inst:fc2ebbbf-074b-59c1-be73-a0e55e24cf08 bot:adjacentElement inst:ba55ad3a-c43a-5a4e-9105-9fa5cd8b6dd5, inst:fe2e9423-d9c0-57d4-bcbd-6e3f5a979e51, inst:e67c9f86-1c5c-51e5-9a1f-effef67f65f9, inst:0826cf00-72b0-5d47-8a8b-2bafcab1dffe, inst:0826cf00-72b0-5d47-8a8b-2bafcab1dffe, inst:8754e669-326b-5509-ae79-a7db32324b13, inst:74467fc5-45a9-5350-a764-da896a720000, inst:f3677117-8dc4-507b-9f84-cdfc1e3cd8b1, inst:ab10c52e-1f33-521d-bf95-4c2b9b132499, inst:a8d4ef61-24b6-5448-ab57-68ae6d08acc2, inst:675d4afb-a8d4-5044-ac5c-ff926caaf3d4, inst:7e91abf8-0856-5453-b3ca-c13c77c57274, inst:e6fefe83-39c5-5e97-8970-799e30c77ca6, inst:fe285dff-02c8-5adc-8e30-11daa17851e1, inst:a8d4ef61-24b6-5448-ab57-68ae6d08acc2.
+inst:f4aa1caf-6573-531f-b7d3-77c87d597dff bot:adjacentElement inst:f2b13177-fc99-5dc7-9a5c-125ba20108fc, inst:e50e8f5e-f5d7-5d69-bafa-ace06845819b, inst:76f197cf-8f86-5ce6-ba33-caa4dbbcbf0b, inst:fc37474a-aac3-51f6-9bab-5a124c505d3a, inst:2a18c8d0-1085-5b8b-b63c-9d75c7bf6edc, inst:6da22e80-513f-5dad-91ff-4b1d200895f0, inst:dc32b173-e939-5ce0-a0b9-b3d62af78d77, inst:b81c8f9b-6df8-5d33-ae9a-8396224a299b.
+inst:3579cfb7-4637-577d-95c4-19a50af4f2c0 bot:adjacentElement inst:f2b13177-fc99-5dc7-9a5c-125ba20108fc, inst:b9ef9f06-4022-50b3-9742-eacbb771bb90, inst:dc32b173-e939-5ce0-a0b9-b3d62af78d77, inst:b81c8f9b-6df8-5d33-ae9a-8396224a299b, inst:0f86c8d1-e506-591f-a149-a8e6446e9bbd, inst:f28f0af2-6141-5db4-a86f-3b1b2fe390a5, inst:d886038c-3c7a-59f6-99d0-740eda00fac6.
+inst:f2f412cf-5313-54e7-a698-19c845248935 bot:adjacentElement inst:ce48a595-ba7d-565c-be46-62a046c85820, inst:28570193-b646-5e63-8deb-ded33ed074a4, inst:808d0891-bf33-5aa0-946d-cc938401c843, inst:0f86c8d1-e506-591f-a149-a8e6446e9bbd, inst:cad002ad-11a9-57e5-b9fe-d21649b7a979, inst:9743a6cf-ab52-5776-99d9-5c47b80ce86d, inst:798ebda2-acf4-5b23-8a17-96f8f28267f4, inst:798ebda2-acf4-5b23-8a17-96f8f28267f4, inst:f28f0af2-6141-5db4-a86f-3b1b2fe390a5.
+inst:e748aece-48f2-5f58-8f1a-5bc6eb7e9a05 bot:adjacentElement inst:f2b13177-fc99-5dc7-9a5c-125ba20108fc, inst:e50e8f5e-f5d7-5d69-bafa-ace06845819b, inst:76f197cf-8f86-5ce6-ba33-caa4dbbcbf0b, inst:a7964e52-359c-58ef-ac5f-ea560c7a0ee6, inst:e34681b9-0ff8-5f86-bbe7-ca7b2e18c67c, inst:9743a6cf-ab52-5776-99d9-5c47b80ce86d, inst:0f86c8d1-e506-591f-a149-a8e6446e9bbd, inst:cad002ad-11a9-57e5-b9fe-d21649b7a979, inst:0f86c8d1-e506-591f-a149-a8e6446e9bbd, inst:6da22e80-513f-5dad-91ff-4b1d200895f0.
+inst:0bebada3-d8f8-5580-8573-d5a475c2ba7f bot:adjacentElement inst:13b20ff5-d4a4-50c9-8168-b8a95e6c9782, inst:269dcf63-5cf0-5d26-bb9e-53adca0943d4, inst:61695bc8-3121-5bf6-9842-1d95d20b6105, inst:eb0fcf57-ac54-581a-bcbc-26bf44548aae, inst:c4da781c-fd6a-5553-b248-1a3a64691f18, inst:780bc94b-4727-5935-9d8f-70290e44d6ba, inst:780bc94b-4727-5935-9d8f-70290e44d6ba, inst:780bc94b-4727-5935-9d8f-70290e44d6ba, inst:c8076f0a-a4ec-5605-b6d1-0d2cbce5ed9b, inst:780bc94b-4727-5935-9d8f-70290e44d6ba, inst:7eff228f-99de-526b-86bc-911e309fe154, inst:45ab347b-5116-52d2-8691-f99736d11a7c.
+inst:3ec1d193-6613-50d7-b4f0-f4ab96165939 bot:adjacentElement inst:80902a9f-921f-59d3-8331-849df450deac, inst:4d5954b8-7036-5428-9158-338e32ccf24d, inst:780bc94b-4727-5935-9d8f-70290e44d6ba, inst:c8076f0a-a4ec-5605-b6d1-0d2cbce5ed9b, inst:a4331551-6c6c-5e55-aaa6-446a8a421c9c, inst:599e4d43-ba78-524d-8aa8-3c533a6f3847, inst:4abbaa6c-7317-5cb2-a136-f0697101ac25, inst:e4ed608b-1518-5c04-aeba-54a5f1ea39b1.
+inst:fb93e695-03ba-5832-b840-9da3235d1522 bot:adjacentElement inst:d56eb24e-2385-571e-a310-9bccbe89fe8c, inst:85ff3540-a848-53f1-b4cb-b55e53ef8ca9, inst:e67c9f86-1c5c-51e5-9a1f-effef67f65f9, inst:fe285dff-02c8-5adc-8e30-11daa17851e1, inst:42ebe8c7-0904-508d-8ad2-3ee643e1598a, inst:de0b51ab-c736-5ec8-b524-10bcb014874b, inst:fa63784b-7a72-5769-8f34-3375be24658d, inst:97cdda8d-fb64-5d84-899e-9d062605a064, inst:61695bc8-3121-5bf6-9842-1d95d20b6105, inst:45157539-f855-5c76-ac2c-849d1abf63f6, inst:fa63784b-7a72-5769-8f34-3375be24658d, inst:42ebe8c7-0904-508d-8ad2-3ee643e1598a, inst:7eff228f-99de-526b-86bc-911e309fe154, inst:45ab347b-5116-52d2-8691-f99736d11a7c, inst:7eff228f-99de-526b-86bc-911e309fe154, inst:45ab347b-5116-52d2-8691-f99736d11a7c, inst:780bc94b-4727-5935-9d8f-70290e44d6ba, inst:e4ed608b-1518-5c04-aeba-54a5f1ea39b1, inst:e4ed608b-1518-5c04-aeba-54a5f1ea39b1, inst:e67c9f86-1c5c-51e5-9a1f-effef67f65f9.
+inst:d53c1796-2145-511f-becb-eedea059c636 bot:adjacentElement inst:2122afe4-e078-54de-80fb-d5db703bb4ba, inst:39cf03ec-f498-5845-ad19-8abca95e62d5, inst:e67c9f86-1c5c-51e5-9a1f-effef67f65f9, inst:2035c626-b1f8-5012-b179-1c31b18e66ce, inst:2035c626-b1f8-5012-b179-1c31b18e66ce, inst:780bc94b-4727-5935-9d8f-70290e44d6ba, inst:eb0fcf57-ac54-581a-bcbc-26bf44548aae, inst:c4da781c-fd6a-5553-b248-1a3a64691f18, inst:61695bc8-3121-5bf6-9842-1d95d20b6105, inst:1f34f27c-430d-5849-ad9d-01e6b93c9531, inst:1b02a765-def0-5fe8-a265-aa67a0584f5d, inst:2f878530-6a4c-5603-918a-9f385608e256, inst:e026db6b-3b15-51a5-ba36-72523ee2522e, inst:b77131e3-e3d2-5b8c-8b44-02242119a667, inst:1f34f27c-430d-5849-ad9d-01e6b93c9531.
+inst:9a340df3-f789-576c-9f39-015f5b0e70a5 bot:adjacentElement inst:641758b1-ce5d-5c71-9825-d13706a1f895, inst:bb20ec8a-298d-510c-9898-182bd2db2d67, inst:8754e669-326b-5509-ae79-a7db32324b13, inst:157fcbbc-5d44-5813-9c3e-b20979616b08, inst:0826cf00-72b0-5d47-8a8b-2bafcab1dffe, inst:9bbaa6b6-574d-5232-85f3-8c9287a2ca43, inst:f670261d-13b9-5701-835b-79ecd27ef793, inst:157fcbbc-5d44-5813-9c3e-b20979616b08.
+inst:aac4114f-311f-5c08-82a3-b7695bafc4f6 bot:adjacentElement inst:80902a9f-921f-59d3-8331-849df450deac, inst:4d5954b8-7036-5428-9158-338e32ccf24d, inst:780bc94b-4727-5935-9d8f-70290e44d6ba, inst:2035c626-b1f8-5012-b179-1c31b18e66ce, inst:4abbaa6c-7317-5cb2-a136-f0697101ac25, inst:a4331551-6c6c-5e55-aaa6-446a8a421c9c, inst:599e4d43-ba78-524d-8aa8-3c533a6f3847.
+inst:4cfb2ef4-d481-5e34-a43e-50cc83bfa533 bot:adjacentElement inst:543c6543-d2ba-5dd3-8675-be7b0100b438, inst:6bb8c58e-8b94-5f1b-b9ee-a8d9d103f029, inst:adae3afa-20f3-5690-8863-118f3da6240b, inst:dc32b173-e939-5ce0-a0b9-b3d62af78d77, inst:10829bd4-a8fc-5321-b2f9-dfa307d8a16f.
+inst:cffbcd3c-57f0-5dc6-a673-1f6187eb98dd bot:adjacentElement inst:269dcf63-5cf0-5d26-bb9e-53adca0943d4, inst:85ff3540-a848-53f1-b4cb-b55e53ef8ca9, inst:e50e8f5e-f5d7-5d69-bafa-ace06845819b, inst:f2b13177-fc99-5dc7-9a5c-125ba20108fc, inst:a7964e52-359c-58ef-ac5f-ea560c7a0ee6, inst:9743a6cf-ab52-5776-99d9-5c47b80ce86d.
+inst:03dd17f6-9ebb-5590-bed9-c1b939dbcda0 bot:adjacentElement inst:f796d527-5c2e-5434-852a-1279065f81b8, inst:d5a18078-0237-5ffa-bb7f-7959bd18965e, inst:95c6e063-fd16-554f-a51b-89c911163a7a, inst:e7920e47-292e-56a8-b675-15bee352ddcb.
+inst:3adf8e39-f9af-598c-a779-619cb5719f0c bot:containsElement inst:b6b60b6a-a438-5f00-a357-928703eb60fe, inst:0eb0758b-a8f8-59a6-9ece-e7fa960f2434, inst:c8f72027-3c94-5a60-a338-dcb0c4f5a83b, inst:4015e82b-f53f-5d49-92a5-5c3b374f6aa0, inst:969fedf3-70c3-5f18-9aed-bc910347da51.
+inst:dae0a11c-0329-5f1c-97b3-036931657fa2 bot:containsElement inst:466c45ca-9c34-56d8-93a2-b135f1ea7ce0, inst:1e2c641c-d8dd-5856-b96b-12d49b4a3bae, inst:52e96f05-3eec-55f8-8ca8-36521ea91e96, inst:3da4629a-11c1-5724-b19e-59026edabdb8, inst:2f29626b-af0f-5a34-b1f6-63bc8ffb2e34, inst:d7896b28-5107-598c-b890-547500db8434, inst:11cb0daf-9fd6-5f25-8e64-cc6947fb093a, inst:2cd08701-3026-5d38-b238-d2a1f6b2036c, inst:aaad5d31-0be4-53a8-abd6-65e9d7afc724, inst:168d2861-2a8a-5176-9e01-250feaf1a19e, inst:ed4b6972-4203-5a07-9282-679aa64fd217, inst:3484c4a0-ee0d-5703-820c-8ea41b0af6d2, inst:11fac29f-77c1-5354-9e0e-35922c40b74b, inst:fa40b28b-0272-5c98-bc22-230b11b87b37, inst:3f11090d-d684-5091-9bda-0f70432debfa.
+inst:0ba40802-18a4-5c1c-a384-ff351352dc1d bot:containsElement inst:a93563cb-5175-54f3-9c2b-c5085e51a9ed, inst:fb824efb-26d6-5aae-b4b0-3868650f478e.
+inst:bd86d257-3a3d-54ae-92a6-62fd66c1e7f9 bot:containsElement inst:635c6170-3888-5e95-a2f2-5ed7ea4d0ec4, inst:6633a3f6-8565-502f-a621-28611b2121b2.
+inst:2f311cd8-291b-500d-8da2-f7d6c285cf76 bot:containsElement inst:dad9d50c-1e17-568d-8003-63ce15014a66, inst:7adcade4-b9bf-5b0f-a42f-4d91634b6263, inst:d5c689bd-cf24-5d1f-8832-1da384f7c3fe, inst:a8b6268a-f6d1-5eb3-b34a-7ebcc9f8699b, inst:34b2e45b-d45b-5918-bbdb-de6455939f12.
+inst:fc2ebbbf-074b-59c1-be73-a0e55e24cf08 bot:containsElement inst:caf1a8b8-3090-55f9-9a47-6e10f638927d, inst:f6a8c49d-c21f-5cf2-b3cf-cd149b043d3a, inst:a8b293ee-6d1c-5b6f-ae1a-d26d899dbb81, inst:ba55ad3a-c43a-5a4e-9105-9fa5cd8b6dd5, inst:3aaa4d8e-6338-5b1c-a7a3-f6c79bba5206.
+inst:f4aa1caf-6573-531f-b7d3-77c87d597dff bot:containsElement inst:380b8e97-ece9-5823-9fe8-189dfe91729c, inst:9bc263a5-8958-57f2-aa1f-e207c3cf698a, inst:f329849c-4dca-5f5c-9769-849a71f9ac58, inst:2952a07f-1d25-5afe-bdb0-bd972bbc46e3, inst:2e0328e4-3d3e-565f-b679-3f6037c2b36f.
+inst:3579cfb7-4637-577d-95c4-19a50af4f2c0 bot:containsElement inst:56c51ed5-1672-5c35-a9e7-60cc1b8a7e1e, inst:e45a3283-7d50-5051-8377-c73c5e9e20b9, inst:cd1225d3-e2a5-5435-8f8b-faab2c6721a6, inst:8a405470-a9fb-5b12-9fae-7acd8b97f6a8, inst:fb587ba7-d638-5cc0-ab31-c8abdd11891d, inst:37061298-eb74-588b-a7c1-f35c38d7286d, inst:50ee55e9-381e-5e7e-97d2-9ac51594c1ef, inst:13317c0f-7aa1-51d6-ab8e-b522878e7196, inst:79aae483-110d-5a83-823e-906602d24c78, inst:8a21463f-e9ab-5e7f-959b-04ee0058abbe, inst:6b8cbc43-b11b-5901-bc45-7785e08cbf39, inst:d4c835a5-14e1-5cc4-aa2d-851b0320215e, inst:42362a1a-f073-571b-8a3f-2f3d7b6c3bcc, inst:d36a9cb3-161c-5f02-a0d3-054a4a4ce960, inst:d5310a05-ce0f-5b8f-8f63-6a604b0e3d34.
+inst:f2f412cf-5313-54e7-a698-19c845248935 bot:containsElement inst:ce48a595-ba7d-565c-be46-62a046c85820, inst:28570193-b646-5e63-8deb-ded33ed074a4.
+inst:3ec1d193-6613-50d7-b4f0-f4ab96165939 bot:containsElement inst:ecc718f0-2731-5b28-8bbe-3bcfee6e1393, inst:c82f32db-c273-5f05-9f31-1725f2f5ff5b.
+inst:fb93e695-03ba-5832-b840-9da3235d1522 bot:containsElement inst:e61e9bcf-f4a2-59a3-8ddc-66f4153fc134, inst:815eaa8c-0e00-56d5-bbbb-dce9f9169ac0, inst:966d98b7-3b78-551f-9635-015b40b462bc, inst:d56eb24e-2385-571e-a310-9bccbe89fe8c, inst:777c49d9-7896-5e36-8025-2643b7c5945d.
+inst:d53c1796-2145-511f-becb-eedea059c636 bot:containsElement inst:cca166a5-d09f-524c-a57f-3fd8342a1ff0, inst:351ec2d0-aa40-51a1-b5ec-13f71694482f, inst:d4f7d7b7-6b17-57ee-80e8-ccde8d2b0b13, inst:2122afe4-e078-54de-80fb-d5db703bb4ba, inst:c1330238-c75b-5203-a76a-4308d6d2bce0.
+inst:303514c8-e111-5e8b-8d2f-eea80d28d500 bot:hasElement inst:7590d321-c1f7-5491-9098-36d3f511ec05, inst:a00aa15b-15fb-5482-a859-efc745bf50e0, inst:ebc16c44-4917-5c3f-80a2-fd315be77d9d, inst:51f9ef40-f9d8-53ea-9ae9-e07719e8a79a, inst:ae6c725e-f500-5399-866e-589e4516adfd, inst:106e7acf-f0d7-581e-b8ae-0d673336b2ac, inst:f81c2e25-81de-5332-9809-1a529ed15a6a, inst:c78b4bf2-9e68-5509-bfe5-920325af3a7f, inst:f5d8208e-1fae-5dfd-9482-a0668e4d6263, inst:2da16406-682e-5095-9337-097a048725fe, inst:02f94cbf-63f5-59b2-b4ef-154a8e1ae168, inst:2f3a9459-f19d-5467-8749-1c672f76fe8f, inst:6c928d96-6218-516a-811e-437a06d51e01, inst:f8515eb9-ba29-51b3-9562-3cf0cb0613c7.
+inst:3c920d72-c495-5d1c-9dc7-b8f23bf6cbfd bot:hasElement inst:76f197cf-8f86-5ce6-ba33-caa4dbbcbf0b, inst:dc32b173-e939-5ce0-a0b9-b3d62af78d77, inst:e101cead-2925-5c14-9353-61def5b6dfa6, inst:a7964e52-359c-58ef-ac5f-ea560c7a0ee6, inst:6da22e80-513f-5dad-91ff-4b1d200895f0, inst:0f86c8d1-e506-591f-a149-a8e6446e9bbd, inst:10829bd4-a8fc-5321-b2f9-dfa307d8a16f, inst:9743a6cf-ab52-5776-99d9-5c47b80ce86d, inst:52102d74-bcd7-5cc3-9f60-cead55329990, inst:7a7d77c2-8129-52db-b3d8-89b56baf9a5c, inst:96ccef3e-93ff-5dce-a68a-6dce5c4b30b2, inst:08ca9df4-d90c-559e-8884-fab9e66bcd07, inst:6c120149-2f99-55de-a7ab-fc427d941a96, inst:2a18c8d0-1085-5b8b-b63c-9d75c7bf6edc, inst:aa08d71b-0495-537c-9981-395e8f7e7aca, inst:1c27bf34-01ae-562a-86f2-0cc09430e5d8, inst:e34681b9-0ff8-5f86-bbe7-ca7b2e18c67c, inst:b81c8f9b-6df8-5d33-ae9a-8396224a299b, inst:ad39a94f-4890-5cce-88c1-24e63e9f59d5, inst:cad002ad-11a9-57e5-b9fe-d21649b7a979, inst:6487b31b-a805-50dd-90ed-cbdd7fc60b5b, inst:6bb8c58e-8b94-5f1b-b9ee-a8d9d103f029, inst:1f453f78-25d3-58b0-8396-df88ffa82def, inst:b38b9a20-9b03-5b49-826e-d078b3e45a65, inst:808d0891-bf33-5aa0-946d-cc938401c843, inst:e50e8f5e-f5d7-5d69-bafa-ace06845819b, inst:b9ef9f06-4022-50b3-9742-eacbb771bb90, inst:fc37474a-aac3-51f6-9bab-5a124c505d3a, inst:ecaacc08-6720-58d3-885e-f5416d0dbaf6, inst:f2b13177-fc99-5dc7-9a5c-125ba20108fc, inst:adae3afa-20f3-5690-8863-118f3da6240b, inst:d886038c-3c7a-59f6-99d0-740eda00fac6, inst:798ebda2-acf4-5b23-8a17-96f8f28267f4, inst:f28f0af2-6141-5db4-a86f-3b1b2fe390a5, inst:ba6bf4d8-f9a8-5824-b342-5b25159b56d6, inst:5640a707-9c83-5670-b1f5-4d3ab185e90c, inst:651f1713-0dd1-5464-af62-97824570469f, inst:98540f89-85a9-586e-bd42-16b02baa20e1, inst:53f6fe1e-26f3-5550-86f2-7374c3bbefa0, inst:ec3dcf56-ffcc-5851-a373-5d76bce831be, inst:5f3623df-d04e-5524-abea-c1642571c3c7.
+inst:1a977502-7363-5a09-a95a-6b3f1ab06db4 bot:hasElement inst:e67c9f86-1c5c-51e5-9a1f-effef67f65f9, inst:fe285dff-02c8-5adc-8e30-11daa17851e1, inst:ab10c52e-1f33-521d-bf95-4c2b9b132499, inst:b77131e3-e3d2-5b8c-8b44-02242119a667, inst:61695bc8-3121-5bf6-9842-1d95d20b6105, inst:7eff228f-99de-526b-86bc-911e309fe154, inst:780bc94b-4727-5935-9d8f-70290e44d6ba, inst:eb0fcf57-ac54-581a-bcbc-26bf44548aae, inst:e4ed608b-1518-5c04-aeba-54a5f1ea39b1, inst:2035c626-b1f8-5012-b179-1c31b18e66ce, inst:17b2b118-c5c3-5f7c-aa70-c9b0acf5e04c, inst:8754e669-326b-5509-ae79-a7db32324b13, inst:74467fc5-45a9-5350-a764-da896a720000, inst:0826cf00-72b0-5d47-8a8b-2bafcab1dffe, inst:4075d9a6-5686-5a5f-9af3-b096c5148963, inst:9a7dd011-cd9b-5c56-9321-1758f5f8c5cd, inst:37caaa05-391a-5f79-a5ec-f1ed2c2c8f69, inst:97cdda8d-fb64-5d84-899e-9d062605a064, inst:fa63784b-7a72-5769-8f34-3375be24658d, inst:de0b51ab-c736-5ec8-b524-10bcb014874b, inst:42ebe8c7-0904-508d-8ad2-3ee643e1598a, inst:dc2b69a7-1715-57e6-9daf-1e0269bd205c, inst:50b0624e-6669-5623-a8e7-e7ac22a3ad47, inst:36ca7ed1-5a91-5a01-86be-8fbb209eea53, inst:977a5710-81f5-5ed6-b467-330aa1f8469f, inst:45ab347b-5116-52d2-8691-f99736d11a7c, inst:39a3db7d-2b33-5870-84ba-e91c4d406d57, inst:c4da781c-fd6a-5553-b248-1a3a64691f18, inst:f3677117-8dc4-507b-9f84-cdfc1e3cd8b1, inst:c8076f0a-a4ec-5605-b6d1-0d2cbce5ed9b, inst:d8ed3a7c-42ef-5028-a2a2-3fa6e75f8088, inst:85ff3540-a848-53f1-b4cb-b55e53ef8ca9, inst:fe2e9423-d9c0-57d4-bcbd-6e3f5a979e51, inst:6d319c28-5c99-5d71-a4eb-2d52f9fc436a, inst:39cf03ec-f498-5845-ad19-8abca95e62d5, inst:13b20ff5-d4a4-50c9-8168-b8a95e6c9782, inst:e7b97ef9-57bb-577d-a175-85f7bc2b2dd6, inst:4d5954b8-7036-5428-9158-338e32ccf24d, inst:bb20ec8a-298d-510c-9898-182bd2db2d67, inst:1f34f27c-430d-5849-ad9d-01e6b93c9531, inst:1b02a765-def0-5fe8-a265-aa67a0584f5d, inst:2f878530-6a4c-5603-918a-9f385608e256, inst:e026db6b-3b15-51a5-ba36-72523ee2522e, inst:a8d4ef61-24b6-5448-ab57-68ae6d08acc2, inst:675d4afb-a8d4-5044-ac5c-ff926caaf3d4, inst:7e91abf8-0856-5453-b3ca-c13c77c57274, inst:e6fefe83-39c5-5e97-8970-799e30c77ca6, inst:87083e19-dba3-5e95-bda3-c44d9f828218, inst:45157539-f855-5c76-ac2c-849d1abf63f6, inst:641758b1-ce5d-5c71-9825-d13706a1f895, inst:543c6543-d2ba-5dd3-8675-be7b0100b438, inst:80902a9f-921f-59d3-8331-849df450deac, inst:269dcf63-5cf0-5d26-bb9e-53adca0943d4, inst:9bbaa6b6-574d-5232-85f3-8c9287a2ca43, inst:4abbaa6c-7317-5cb2-a136-f0697101ac25, inst:a4331551-6c6c-5e55-aaa6-446a8a421c9c, inst:599e4d43-ba78-524d-8aa8-3c533a6f3847, inst:f670261d-13b9-5701-835b-79ecd27ef793, inst:157fcbbc-5d44-5813-9c3e-b20979616b08, inst:f48d1a46-d1e2-599f-bd0d-45ef855cc49b, inst:266abd2e-d4be-5ba1-a0f9-64768177eb6a, inst:973ed00b-1748-5477-9cad-0b49164b7cae, inst:4172c22a-1b35-564e-b72f-565983ec7f37, inst:6298b160-6be4-541b-966a-ec1b16ea1b61, inst:7eaada98-5313-5a2f-8ca6-11ed5bb83a8a, inst:287066b8-0119-5d8e-b9fd-dab479de5907, inst:b19dc3ee-3240-56ae-a520-65ba6318babe, inst:dc64f698-c2bc-5a0a-aeea-549e2db7aa8a, inst:3ed265f8-3316-54e1-b35f-52ec123becf8, inst:5198e8ae-4e72-50b4-a60c-847aa74786e4, inst:deb18a12-8f2b-5362-a4f4-dfffc9aba4e0, inst:211bffd0-41e0-5173-974e-fe655bcf5bdb, inst:d10caef0-7840-5fc1-93ae-fd9c9a826b16.
+inst:41321bd5-f34b-5b8b-bcf5-3ad710266535 bot:hasElement inst:2f6438aa-025c-5a92-b2a4-67dbaa602287, inst:f796d527-5c2e-5434-852a-1279065f81b8, inst:e7920e47-292e-56a8-b675-15bee352ddcb, inst:95c6e063-fd16-554f-a51b-89c911163a7a, inst:d5a18078-0237-5ffa-bb7f-7959bd18965e, inst:a0f592d2-3d48-5f12-a7df-f6b43f9602af, inst:da63e2b8-03a2-59d5-b686-26624e58b4b6, inst:0225345e-60d3-5545-ab07-5e908737aacc, inst:92e4f23d-27b0-51f3-a6f7-5f3c0a43a58d, inst:bc204e3e-4d48-59dd-873e-49ffe3777a2b, inst:04c5b26e-7a9f-501c-a407-3272cf945939.
+inst:5337445c-5c09-5447-8200-9df870715463 bot:hasSubElement inst:5337445c-5c09-5447-8200-9df870715463.
+inst:88f46fd6-6b5e-5e42-8e97-7a7e76afa582 bot:hasSubElement inst:88f46fd6-6b5e-5e42-8e97-7a7e76afa582.
+inst:9b88655f-9d70-5e9a-8166-69e0f67990c5 bot:hasSubElement inst:9b88655f-9d70-5e9a-8166-69e0f67990c5.
+inst:54802613-8657-553c-89bd-694122b3565c bot:hasSubElement inst:54802613-8657-553c-89bd-694122b3565c.
+inst:27b67f3f-009d-56de-bc35-27e6b6511c8d bot:hasSubElement inst:27b67f3f-009d-56de-bc35-27e6b6511c8d.
+inst:61a725be-27ae-5542-bf02-317a2d2c840a bot:hasSubElement inst:61a725be-27ae-5542-bf02-317a2d2c840a.
+inst:1d1043fe-ae8e-537b-bbe8-1daa08c3ccfa bot:hasSubElement inst:1d1043fe-ae8e-537b-bbe8-1daa08c3ccfa.
+inst:de0e9adc-424d-5465-bbd5-5cbcc40bdf5d bot:hasSubElement inst:de0e9adc-424d-5465-bbd5-5cbcc40bdf5d.
+inst:edba4877-fea1-5c8f-a2b9-0d6469cde375 bot:hasSubElement inst:edba4877-fea1-5c8f-a2b9-0d6469cde375.
+inst:4c48149c-0acb-5d65-a48d-4b648d01c620 bot:hasSubElement inst:4c48149c-0acb-5d65-a48d-4b648d01c620.
+inst:166af8ec-0891-54a9-be82-e463504c9100 bot:hasSubElement inst:166af8ec-0891-54a9-be82-e463504c9100.
+inst:0d296ada-5f4f-514f-b864-7b13139004c2 bot:hasSubElement inst:0d296ada-5f4f-514f-b864-7b13139004c2.
+inst:0efd79c0-556b-5590-88aa-e3a104a3bb85 bot:hasSubElement inst:0efd79c0-556b-5590-88aa-e3a104a3bb85.
+inst:7167415f-c4b5-507f-ad5b-ddcdad794dc8 bot:hasSubElement inst:7167415f-c4b5-507f-ad5b-ddcdad794dc8.
+inst:e51ee594-2a3d-50fd-9b64-3f63c733b7fe bot:hasSubElement inst:e51ee594-2a3d-50fd-9b64-3f63c733b7fe.
+inst:9af0f63c-af69-53aa-be87-451cf2cce5fa bot:hasSubElement inst:9af0f63c-af69-53aa-be87-451cf2cce5fa.
+inst:3a728eec-15fd-52ce-ba8d-bdcaed5379f3 bot:hasSubElement inst:3a728eec-15fd-52ce-ba8d-bdcaed5379f3.
+inst:997b654a-9f64-552e-a381-313bbc68ec2a bot:hasSubElement inst:997b654a-9f64-552e-a381-313bbc68ec2a.
+inst:3b606ad4-5a48-5f32-bcb5-69e1c18bd685 bot:hasSubElement inst:3b606ad4-5a48-5f32-bcb5-69e1c18bd685.
+inst:59cde1fb-91bd-5a9b-833d-329e39007933 bot:hasSubElement inst:59cde1fb-91bd-5a9b-833d-329e39007933.
+inst:cf7cc88f-0ca8-5c11-9ad2-7d9e5a1a07d1 bot:hasSubElement inst:cf7cc88f-0ca8-5c11-9ad2-7d9e5a1a07d1.
+inst:fb136343-ca78-5dfe-a92c-2ec1b420c545 bot:hasSubElement inst:fb136343-ca78-5dfe-a92c-2ec1b420c545.
+inst:80b183dc-f91d-546a-8c66-cd9625a333af bot:hasSubElement inst:80b183dc-f91d-546a-8c66-cd9625a333af.
+inst:d7946675-f04b-5748-ba3d-60c441187c88 bot:hasSubElement inst:d7946675-f04b-5748-ba3d-60c441187c88.
+inst:0f6a6982-3e17-5d79-af9c-58fbfc4d6668 bot:hasSubElement inst:0f6a6982-3e17-5d79-af9c-58fbfc4d6668.
+inst:11a2a597-855e-5cff-9ba4-cea84efeee8c bot:hasSubElement inst:11a2a597-855e-5cff-9ba4-cea84efeee8c.
+inst:154e946e-75bf-5c77-b5fb-c617d1fd5cbb bot:hasSubElement inst:154e946e-75bf-5c77-b5fb-c617d1fd5cbb.
+inst:e8011fb3-8a11-5e6c-831e-6d831b50e09e bot:hasSubElement inst:e8011fb3-8a11-5e6c-831e-6d831b50e09e.
+inst:43b8e3fe-cfe0-5409-8556-3904e6e33397 bot:hasSubElement inst:43b8e3fe-cfe0-5409-8556-3904e6e33397.
+inst:77a65475-3bc5-566b-98f8-2675b65aa892 bot:hasSubElement inst:77a65475-3bc5-566b-98f8-2675b65aa892.
+inst:a06b5f9e-2f65-5d07-b4cb-744990da925c bot:hasSubElement inst:a06b5f9e-2f65-5d07-b4cb-744990da925c.
+inst:b0e0cf72-b162-5d54-b3a1-14bf3e897877 bot:hasSubElement inst:b0e0cf72-b162-5d54-b3a1-14bf3e897877.
+inst:299d9f47-c247-53c7-856c-3a91216e3b1b bot:hasSubElement inst:299d9f47-c247-53c7-856c-3a91216e3b1b.
+inst:82f397a4-4a6f-5c76-aeca-84216f648c9a bot:hasSubElement inst:82f397a4-4a6f-5c76-aeca-84216f648c9a.
+inst:97a198da-3b50-514e-b34a-c6b5d9e3c92c bot:hasSubElement inst:97a198da-3b50-514e-b34a-c6b5d9e3c92c.
+inst:d28219ad-f888-54d4-a53f-a8ac3d6d5e8c bot:hasSubElement inst:d28219ad-f888-54d4-a53f-a8ac3d6d5e8c.
+inst:76f197cf-8f86-5ce6-ba33-caa4dbbcbf0b bot:adjacentElement inst:a7964e52-359c-58ef-ac5f-ea560c7a0ee6, inst:dc32b173-e939-5ce0-a0b9-b3d62af78d77.
+inst:dc32b173-e939-5ce0-a0b9-b3d62af78d77 bot:adjacentElement inst:e101cead-2925-5c14-9353-61def5b6dfa6.
+inst:e101cead-2925-5c14-9353-61def5b6dfa6 bot:adjacentElement inst:a7964e52-359c-58ef-ac5f-ea560c7a0ee6.
+inst:76f197cf-8f86-5ce6-ba33-caa4dbbcbf0b bot:adjacentElement inst:6da22e80-513f-5dad-91ff-4b1d200895f0.
+inst:0f86c8d1-e506-591f-a149-a8e6446e9bbd bot:adjacentElement inst:9743a6cf-ab52-5776-99d9-5c47b80ce86d.
+inst:dc32b173-e939-5ce0-a0b9-b3d62af78d77 bot:adjacentElement inst:10829bd4-a8fc-5321-b2f9-dfa307d8a16f.
+inst:10829bd4-a8fc-5321-b2f9-dfa307d8a16f bot:adjacentElement inst:52102d74-bcd7-5cc3-9f60-cead55329990.
+inst:a7964e52-359c-58ef-ac5f-ea560c7a0ee6 bot:adjacentElement inst:9743a6cf-ab52-5776-99d9-5c47b80ce86d.
+inst:9743a6cf-ab52-5776-99d9-5c47b80ce86d bot:adjacentElement inst:52102d74-bcd7-5cc3-9f60-cead55329990.
+inst:10829bd4-a8fc-5321-b2f9-dfa307d8a16f bot:adjacentElement inst:7a7d77c2-8129-52db-b3d8-89b56baf9a5c.
+inst:96ccef3e-93ff-5dce-a68a-6dce5c4b30b2 bot:adjacentElement inst:ba6bf4d8-f9a8-5824-b342-5b25159b56d6, inst:5640a707-9c83-5670-b1f5-4d3ab185e90c.
+inst:7a7d77c2-8129-52db-b3d8-89b56baf9a5c bot:adjacentElement inst:96ccef3e-93ff-5dce-a68a-6dce5c4b30b2.
+inst:7590d321-c1f7-5491-9098-36d3f511ec05 bot:adjacentElement inst:51f9ef40-f9d8-53ea-9ae9-e07719e8a79a, inst:a00aa15b-15fb-5482-a859-efc745bf50e0.
+inst:a00aa15b-15fb-5482-a859-efc745bf50e0 bot:adjacentElement inst:ebc16c44-4917-5c3f-80a2-fd315be77d9d.
+inst:ebc16c44-4917-5c3f-80a2-fd315be77d9d bot:adjacentElement inst:51f9ef40-f9d8-53ea-9ae9-e07719e8a79a.
+inst:a00aa15b-15fb-5482-a859-efc745bf50e0 bot:adjacentElement inst:ae6c725e-f500-5399-866e-589e4516adfd.
+inst:ae6c725e-f500-5399-866e-589e4516adfd bot:adjacentElement inst:f81c2e25-81de-5332-9809-1a529ed15a6a.
+inst:51f9ef40-f9d8-53ea-9ae9-e07719e8a79a bot:adjacentElement inst:106e7acf-f0d7-581e-b8ae-0d673336b2ac.
+inst:106e7acf-f0d7-581e-b8ae-0d673336b2ac bot:adjacentElement inst:f81c2e25-81de-5332-9809-1a529ed15a6a.
+inst:e67c9f86-1c5c-51e5-9a1f-effef67f65f9 bot:adjacentElement inst:fe285dff-02c8-5adc-8e30-11daa17851e1, inst:b77131e3-e3d2-5b8c-8b44-02242119a667.
+inst:fe285dff-02c8-5adc-8e30-11daa17851e1 bot:adjacentElement inst:61695bc8-3121-5bf6-9842-1d95d20b6105, inst:ab10c52e-1f33-521d-bf95-4c2b9b132499.
+inst:ab10c52e-1f33-521d-bf95-4c2b9b132499 bot:adjacentElement inst:b77131e3-e3d2-5b8c-8b44-02242119a667.
+inst:b77131e3-e3d2-5b8c-8b44-02242119a667 bot:adjacentElement inst:61695bc8-3121-5bf6-9842-1d95d20b6105.
+inst:61695bc8-3121-5bf6-9842-1d95d20b6105 bot:adjacentElement inst:7eff228f-99de-526b-86bc-911e309fe154.
+inst:7eff228f-99de-526b-86bc-911e309fe154 bot:adjacentElement inst:780bc94b-4727-5935-9d8f-70290e44d6ba.
+inst:780bc94b-4727-5935-9d8f-70290e44d6ba bot:adjacentElement inst:eb0fcf57-ac54-581a-bcbc-26bf44548aae.
+inst:61695bc8-3121-5bf6-9842-1d95d20b6105 bot:adjacentElement inst:eb0fcf57-ac54-581a-bcbc-26bf44548aae.
+inst:780bc94b-4727-5935-9d8f-70290e44d6ba bot:adjacentElement inst:e4ed608b-1518-5c04-aeba-54a5f1ea39b1.
+inst:e67c9f86-1c5c-51e5-9a1f-effef67f65f9 bot:adjacentElement inst:e4ed608b-1518-5c04-aeba-54a5f1ea39b1, inst:2035c626-b1f8-5012-b179-1c31b18e66ce.
+inst:780bc94b-4727-5935-9d8f-70290e44d6ba bot:adjacentElement inst:2035c626-b1f8-5012-b179-1c31b18e66ce.
+inst:ab10c52e-1f33-521d-bf95-4c2b9b132499 bot:adjacentElement inst:17b2b118-c5c3-5f7c-aa70-c9b0acf5e04c.
+inst:17b2b118-c5c3-5f7c-aa70-c9b0acf5e04c bot:adjacentElement inst:8754e669-326b-5509-ae79-a7db32324b13.
+inst:8754e669-326b-5509-ae79-a7db32324b13 bot:adjacentElement inst:74467fc5-45a9-5350-a764-da896a720000.
+inst:ab10c52e-1f33-521d-bf95-4c2b9b132499 bot:adjacentElement inst:74467fc5-45a9-5350-a764-da896a720000.
+inst:e67c9f86-1c5c-51e5-9a1f-effef67f65f9 bot:adjacentElement inst:0826cf00-72b0-5d47-8a8b-2bafcab1dffe.
+inst:8754e669-326b-5509-ae79-a7db32324b13 bot:adjacentElement inst:0826cf00-72b0-5d47-8a8b-2bafcab1dffe, inst:4075d9a6-5686-5a5f-9af3-b096c5148963.
+inst:e67c9f86-1c5c-51e5-9a1f-effef67f65f9 bot:adjacentElement inst:4075d9a6-5686-5a5f-9af3-b096c5148963.
+inst:f796d527-5c2e-5434-852a-1279065f81b8 bot:adjacentElement inst:d5a18078-0237-5ffa-bb7f-7959bd18965e, inst:e7920e47-292e-56a8-b675-15bee352ddcb.
+inst:e7920e47-292e-56a8-b675-15bee352ddcb bot:adjacentElement inst:95c6e063-fd16-554f-a51b-89c911163a7a.
+inst:95c6e063-fd16-554f-a51b-89c911163a7a bot:adjacentElement inst:d5a18078-0237-5ffa-bb7f-7959bd18965e.
+inst:dc32b173-e939-5ce0-a0b9-b3d62af78d77 bot:adjacentElement inst:d886038c-3c7a-59f6-99d0-740eda00fac6.
+inst:d886038c-3c7a-59f6-99d0-740eda00fac6 bot:adjacentElement inst:798ebda2-acf4-5b23-8a17-96f8f28267f4, inst:f28f0af2-6141-5db4-a86f-3b1b2fe390a5.
+inst:9743a6cf-ab52-5776-99d9-5c47b80ce86d bot:adjacentElement inst:798ebda2-acf4-5b23-8a17-96f8f28267f4.
+inst:798ebda2-acf4-5b23-8a17-96f8f28267f4 bot:adjacentElement inst:f28f0af2-6141-5db4-a86f-3b1b2fe390a5.
+inst:0f86c8d1-e506-591f-a149-a8e6446e9bbd bot:adjacentElement inst:f28f0af2-6141-5db4-a86f-3b1b2fe390a5.
+inst:10829bd4-a8fc-5321-b2f9-dfa307d8a16f bot:adjacentElement inst:ba6bf4d8-f9a8-5824-b342-5b25159b56d6.
+inst:ba6bf4d8-f9a8-5824-b342-5b25159b56d6 bot:adjacentElement inst:5640a707-9c83-5670-b1f5-4d3ab185e90c.
+inst:a7964e52-359c-58ef-ac5f-ea560c7a0ee6 bot:adjacentElement inst:5640a707-9c83-5670-b1f5-4d3ab185e90c.
+inst:0826cf00-72b0-5d47-8a8b-2bafcab1dffe bot:adjacentElement inst:9bbaa6b6-574d-5232-85f3-8c9287a2ca43.
+inst:4075d9a6-5686-5a5f-9af3-b096c5148963 bot:adjacentElement inst:9bbaa6b6-574d-5232-85f3-8c9287a2ca43.
+inst:2035c626-b1f8-5012-b179-1c31b18e66ce bot:adjacentElement inst:4abbaa6c-7317-5cb2-a136-f0697101ac25.
+inst:e4ed608b-1518-5c04-aeba-54a5f1ea39b1 bot:adjacentElement inst:4abbaa6c-7317-5cb2-a136-f0697101ac25.
+inst:4abbaa6c-7317-5cb2-a136-f0697101ac25 bot:adjacentElement inst:a4331551-6c6c-5e55-aaa6-446a8a421c9c.
+inst:780bc94b-4727-5935-9d8f-70290e44d6ba bot:adjacentElement inst:a4331551-6c6c-5e55-aaa6-446a8a421c9c.
+inst:9bbaa6b6-574d-5232-85f3-8c9287a2ca43 bot:adjacentElement inst:f670261d-13b9-5701-835b-79ecd27ef793.
+inst:8754e669-326b-5509-ae79-a7db32324b13 bot:adjacentElement inst:f670261d-13b9-5701-835b-79ecd27ef793.
+inst:7eff228f-99de-526b-86bc-911e309fe154 bot:adjacentElement inst:f48d1a46-d1e2-599f-bd0d-45ef855cc49b.
+inst:9743a6cf-ab52-5776-99d9-5c47b80ce86d bot:adjacentElement inst:f48d1a46-d1e2-599f-bd0d-45ef855cc49b.
+inst:17b2b118-c5c3-5f7c-aa70-c9b0acf5e04c bot:adjacentElement inst:266abd2e-d4be-5ba1-a0f9-64768177eb6a.
+inst:10829bd4-a8fc-5321-b2f9-dfa307d8a16f bot:adjacentElement inst:266abd2e-d4be-5ba1-a0f9-64768177eb6a.
+inst:287066b8-0119-5d8e-b9fd-dab479de5907 bot:adjacentElement inst:b19dc3ee-3240-56ae-a520-65ba6318babe, inst:3ed265f8-3316-54e1-b35f-52ec123becf8.
+inst:b19dc3ee-3240-56ae-a520-65ba6318babe bot:adjacentElement inst:dc64f698-c2bc-5a0a-aeea-549e2db7aa8a.
+inst:dc64f698-c2bc-5a0a-aeea-549e2db7aa8a bot:adjacentElement inst:3ed265f8-3316-54e1-b35f-52ec123becf8.
+inst:5198e8ae-4e72-50b4-a60c-847aa74786e4 bot:adjacentElement inst:deb18a12-8f2b-5362-a4f4-dfffc9aba4e0, inst:d10caef0-7840-5fc1-93ae-fd9c9a826b16.
+inst:deb18a12-8f2b-5362-a4f4-dfffc9aba4e0 bot:adjacentElement inst:211bffd0-41e0-5173-974e-fe655bcf5bdb.
+inst:211bffd0-41e0-5173-974e-fe655bcf5bdb bot:adjacentElement inst:d10caef0-7840-5fc1-93ae-fd9c9a826b16.
+inst:e101cead-2925-5c14-9353-61def5b6dfa6 bot:adjacentElement inst:5f3623df-d04e-5524-abea-c1642571c3c7.
+inst:3c920d72-c495-5d1c-9dc7-b8f23bf6cbfd bot:hasSpace inst:3adf8e39-f9af-598c-a779-619cb5719f0c, inst:dae0a11c-0329-5f1c-97b3-036931657fa2, inst:0ba40802-18a4-5c1c-a384-ff351352dc1d, inst:f4aa1caf-6573-531f-b7d3-77c87d597dff, inst:3579cfb7-4637-577d-95c4-19a50af4f2c0, inst:f2f412cf-5313-54e7-a698-19c845248935, inst:e748aece-48f2-5f58-8f1a-5bc6eb7e9a05, inst:4cfb2ef4-d481-5e34-a43e-50cc83bfa533, inst:cffbcd3c-57f0-5dc6-a673-1f6187eb98dd.
+inst:1a977502-7363-5a09-a95a-6b3f1ab06db4 bot:hasSpace inst:942fe045-5c36-5c4c-895c-5a8d83677b5a, inst:bd86d257-3a3d-54ae-92a6-62fd66c1e7f9, inst:2f311cd8-291b-500d-8da2-f7d6c285cf76, inst:fc2ebbbf-074b-59c1-be73-a0e55e24cf08, inst:0bebada3-d8f8-5580-8573-d5a475c2ba7f, inst:3ec1d193-6613-50d7-b4f0-f4ab96165939, inst:fb93e695-03ba-5832-b840-9da3235d1522, inst:d53c1796-2145-511f-becb-eedea059c636, inst:9a340df3-f789-576c-9f39-015f5b0e70a5, inst:aac4114f-311f-5c08-82a3-b7695bafc4f6.
+inst:41321bd5-f34b-5b8b-bcf5-3ad710266535 bot:hasSpace inst:03dd17f6-9ebb-5590-bed9-c1b939dbcda0.
+inst:4e22aae1-afc7-5a6f-a908-998267ebf4c3 bot:hasStorey inst:303514c8-e111-5e8b-8d2f-eea80d28d500, inst:3c920d72-c495-5d1c-9dc7-b8f23bf6cbfd, inst:1a977502-7363-5a09-a95a-6b3f1ab06db4, inst:41321bd5-f34b-5b8b-bcf5-3ad710266535.
+inst:b290d0fe-0f7f-57fc-a1d7-628bdb779778 bot:hasBuilding inst:4e22aae1-afc7-5a6f-a908-998267ebf4c3.
